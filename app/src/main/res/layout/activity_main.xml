@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="#F3E5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer Antar Bank"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Bank Tujuan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/et_bank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan nama bank penerima"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Rekening Tujuan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/et_rek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan nomor rekening penerima"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:inputType="number"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nominal Uang"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/et_nominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan nominal uang yang akan ditransfer"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:singleLine="true"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan username anda"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/et_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan pin anda"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:inputType="numberPassword"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_terus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="teruskan"
+        android:layout_marginTop="20dp"
+        android:background="#9575CD"/>
+
+</LinearLayout>
